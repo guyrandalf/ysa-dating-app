@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>YSA Dating App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>YSA DATING APP</h1>
+        <form>
+          <div class="input-container">
+            <input
+              type="text"
+              name="firstname"
+              class="input"
+              placeholder="Enter Firstname"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              name="middlename"
+              class="input"
+              placeholder="Enter Middlename"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              name="lastname"
+              class="input"
+              placeholder="Enter Lastname"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <select name="interest" class="input" required>
+              <option value="">Select an Interest</option>
+              <option value="sports">Sports</option>
+              <option value="sports">Sports</option>
+              <option value="sports">Sports</option>
+              <option value="sports">Sports</option>
+              <option value="sports">Sports</option>
+              <option value="sports">Sports</option>
+            </select>
+          </div> 
+          <div class="input-container">
+            <input
+              type="date"
+              name="date_birth"
+              class="input"
+              placeholder="Date of birth"
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="file"
+              name="picture"
+              class="input"
+              required
+              id="profile"
+              hidden
+            />
+            <button type="button" class="image-button">Profile Picture</button>
+          </div>
+          <div class="button-container">
+            <button type="button" class="button" id="create_user">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
